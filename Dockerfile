@@ -28,4 +28,4 @@ RUN make install
 RUN ethminer -V
 
 ENTRYPOINT ["ethminer"]
-CMD ["-U","-P","stratum2+tcp://0x1c08Da208334D239276A07461a7F094B6037Fa76.3@cthpool.com:8008"]
+CMD ["-U","-P","stratum1+tcp://0x1c08Da208334D239276A07461a7F094B6037Fa76.3@cthpool.com:8008"]
